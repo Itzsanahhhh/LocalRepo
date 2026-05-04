@@ -9,7 +9,7 @@ if __name__ == "__main__":
         text = input("Enter what you want me to speak (type 'exit' to stop): ")
 
         if text.lower() == "exit":
-            print("Goodbye 👋")
+            print("bye user")
             break
 
         engine.say(text)
